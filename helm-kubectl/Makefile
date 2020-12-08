@@ -1,7 +1,7 @@
 default: docker
 
-DOCKER_IMAGE ?= jlmatias/helm-kubectl
-DOCKER_TAG ?= 0.1.2
+DOCKER_IMAGE ?= jmatiastw/helm-kubectl
+DOCKER_TAG ?= 0.2.0
 VCS_REF ?= $(DOCKER_TAG)
 
 docker:
